@@ -1,0 +1,187 @@
+.nav-bar{
+    position:fixed ;
+    width: 420px;
+    height: 700px;
+    left: -2px;
+    top: 0px;
+    background: #E4A951;
+}
+.passport{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 50px;
+    top: 20px;
+    border-radius: 357.468px;
+    transform: rotate(-0.42deg);
+}
+.nav-links .home-nav a{
+    width: 127px;
+    color: #001E36;
+    position: absolute;
+    top: 360px;
+    left: 120px;
+    font-family:'Habibi';
+    font-weight: Light;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+  }
+  .nav-links .about-nav a{
+    width: 127px;
+    color:#001E36;
+    position: absolute;
+    top: 400px;
+    left: 120px;
+    font-family:'Habibi';
+    font-weight: Light;
+    font-size: 32px;
+    text-align: left;
+    text-decoration: none;
+  }
+  .nav-links .education-nav a{
+    width: 127px;
+    color: #001E36;
+    position: absolute;
+    top: 440px;
+    left: 120px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+  }
+  .nav-links .skills-nav a{
+    width: 127px;
+    color: #001E36;
+    position: absolute;
+    top: 480px;
+    left: 120px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 32px;
+    opacity: 1;
+    text-align:left;
+    text-decoration: none;
+  }
+  .nav-links .contact-nav a{
+    width: 127px;
+    color: #001E36;
+    position: absolute;
+    top: 520px;
+    left: 120px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 32px;
+    text-align: left;
+    text-decoration: none; 
+   }
+  .nav-links .home-nav a:hover{
+    width: 127px;
+    color: #1410CB;
+    position: absolute;
+    top: 360px;
+    left: 125px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+    border-bottom:#1410CB 2px solid;
+  }
+  .nav-links .about-nav a:hover{
+    width: 127px;
+    color: #1410CB;
+    position: absolute;
+    top: 400px;
+    left: 125px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+    border-bottom:#1410CB 2px solid;
+  }
+  .nav-links .education-nav a:hover{
+    width: 127px;
+    color: #1410CB;
+    position: absolute;
+    top: 440px;
+    left: 125px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+    border-bottom:#1410CB 2px solid;
+  }
+  .nav-links .skills-nav a:hover{
+    width: 127px;
+    color: #1410CB;
+    position: absolute;
+    top: 480px;
+    left: 125px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: #1410CB 2px solid;
+  }
+
+  .nav-links .contact-nav a:hover{
+    width: 127px;
+    color: #1410CB;
+    position: absolute;
+    top: 520px;
+    left: 125px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: #1410CB 2px solid;
+  }
+.name1{
+position: absolute;
+width: 170px;
+height: 40px;
+left:30px;
+top: 280px;
+font-family: 'Habibi';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 60px;
+color: whitesmoke;
+
+}
+.name2{
+position: absolute;
+width: 165px;
+height: 55px;
+left: 200px;
+top: 280px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 58px;
+color:  whitesmoke;
+
+}
+.homeimage{
+position: absolute;
+width: 69.03%;
+height: auto;
+left: 417.84px;
+top: 0px;
+border: 1px solid #FFFFFF;
+}
