@@ -1,0 +1,100 @@
+.html-icon{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 500px;
+    top: 80px;
+    rotate: 270deg;
+    }
+.js-icon{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 800px;
+    top: 80px;
+}
+.photoshop-icon{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1100px;
+    top: 80px;
+    }
+.java-icon{
+position: absolute;
+width: 200px;
+height: 200px;
+left: 557px;
+top: 380px;
+}
+.c-icon{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1006px;
+    top: 380px;
+}
+.html-words{
+    position: absolute;
+width: 222px;
+height: 58px;
+left: 500px;
+top: 270px;
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 58px;
+    }
+.js-words{
+    position: absolute;
+    width: 240px;
+    height: 58px;
+    left: 810px;
+    top: 280px;
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 58px;
+}
+.ps-words{
+position: absolute;
+width: 262px;
+height: 58px;
+left: 1100px;
+top: 280px;
+
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 58px;
+}
+.java-words{
+    position: absolute;
+width: 329px;
+height: 116px;
+left: 577px;
+top: 580px;
+
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 58px;
+
+}
+.c-words{
+    position: absolute;
+width: 329px;
+height: 116px;
+left: 1006px;
+top: 580px;
+
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 58px;
+}
