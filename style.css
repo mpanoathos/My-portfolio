@@ -3,7 +3,7 @@
     scroll-behavior: auto;
 } 
 .nav-bar{
-    position:absolute ;
+    position:fixed;
     width: 420px;
     height: 700px;
     left: -2px;
