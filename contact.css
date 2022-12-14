@@ -1,0 +1,113 @@
+.title3{
+position: absolute;
+width: 364px;
+height: 63px;
+left: 500px;
+top: 40px;
+font-family: 'Jacques Francois';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 63px;
+color: #03379D;
+}
+.email-icon{
+position: absolute;
+left: 39.24%;
+right: 55.76%;
+top: 19.73%;
+bottom: 73.73%;
+height: 80px;
+}
+.phone-icon{
+    position: absolute;
+    left: 39.93%;
+    right: 55%;
+    top: 36.31%;
+    width: 80px;
+    height: 60px;
+}
+.location-icon{
+    position: absolute;
+    width: 77px;
+    height: 86px;
+    left: 540px;
+    top: 310px;
+}
+.email-words{
+position: absolute;
+left: 663px;
+top: 140px;
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 38px;
+}
+.phone-number{
+position: absolute;
+width: 244px;
+height: 38px;
+left: 676px;
+top: 240px;
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 38px;
+}
+.location{
+position: absolute;
+width: 219px;
+height: 38px;
+left: 678px;
+top: 335px;
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 38px;
+}
+.Name-box{
+position: absolute;
+width: 300px;
+height: 45px;
+left: 600px;
+top: 430px;
+box-shadow: 2px 2px 2px;
+border-radius:20px;
+}
+.email-box{
+position: absolute;
+width: 300px;
+height: 45px;
+left: 600px;
+top: 495px;
+box-shadow: 2px 2px 2px ;
+border-radius: 20px;
+}
+.message-box{
+position: absolute;
+width: 400px;
+height: 100px;
+left: 600px;
+top: 560px;
+box-shadow: 2px 2px 2px;
+border-radius: 20px;
+}
+.button{
+position: absolute;
+width: 180px;
+height: 60px;
+left: 600px;
+top: 700px;
+background: #E4A951;
+border-radius:10px ;
+}
+.button:hover{
+    background:white;
+    color:#03379D;
+    box-shadow: 0px 4px 4px rgba(226, 172, 141, 0.25);
+    right:10px;
+
+}
