@@ -1,0 +1,260 @@
+*{
+    box-sizing:border-box;
+    scroll-behavior: auto;
+} 
+.nav-bar{
+    position:fixed;
+    width: 300px;
+    height: 700px;
+    left: -2px;
+    top: 0px;
+    background: #E4A951;
+}
+.passport{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 50px;
+    top: 20px;
+    border-radius: 357.468px;
+    transform: rotate(-0.42deg);
+}
+.nav-links .home-nav a{
+    width: 127px;
+    color: #001E36;
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    font-family:'Habibi';
+    font-weight: Light;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+  }
+  .nav-links .about-nav a{
+    width: 127px;
+    color:#001E36;
+    position: absolute;
+    top: 340px;
+    left: 70px;
+    font-family:'Habibi';
+    font-weight: Light;
+    font-size: 24px;
+    text-align: left;
+    text-decoration: none;
+  }
+  .nav-links .education-nav a{
+    width: 127px;
+    color: #001E36;
+    position: absolute;
+    top: 380px;
+    left: 70px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 24px;
+    text-align: left;
+    text-decoration: none;
+  }
+  .nav-links .skills-nav a{
+    width: 127px;
+    color: #001E36;
+    position: absolute;
+    top: 420px;
+    left: 70px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 24px;
+    opacity: 1;
+    text-align:left;
+    text-decoration: none;
+  }
+  .nav-links .project-nav a{
+    width: 127px;
+    color: #001E36;
+    position: absolute;
+    top: 460px;
+    left: 70px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 24px;
+    text-align: left;
+    text-decoration: none; 
+  }
+  .nav-links .contact-nav a{
+    width: 127px;
+    color: #001E36;
+    position: absolute;
+    top: 500px;
+    left: 70px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 24px;
+    text-align: left;
+    text-decoration: none; 
+   }
+  .nav-links .home-nav a:hover{
+    width: 127px;
+    color: #1410CB;
+    position: absolute;
+    top: 300px;
+    left: 75px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+    border-bottom:#1410CB 2px solid;
+  }
+  .nav-links .about-nav a:hover{
+    width: 127px;
+    color: #1410CB;
+    position: absolute;
+    top: 340px;
+    left: 75px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+    border-bottom:#1410CB 2px solid;
+  }
+  .nav-links .education-nav a:hover{
+    width: 127px;
+    color: #1410CB;
+    position: absolute;
+    top: 380px;
+    left: 75px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+    border-bottom:#1410CB 2px solid;
+  }
+  .nav-links .skills-nav a:hover{
+    width: 127px;
+    color: #1410CB;
+    position: absolute;
+    top: 420px;
+    left: 75px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: #1410CB 2px solid;
+  }
+  .nav-links .project-nav a:hover{
+    width: 127px;
+    color: #1410CB;
+    position: absolute;
+    top: 460px;
+    left: 75px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: #1410CB 2px solid;
+  }
+
+  .nav-links .contact-nav a:hover{
+    width: 127px;
+    color: #1410CB;
+    position: absolute;
+    top: 500px;
+    left: 75px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: #1410CB 2px solid;
+  }
+.name1{
+position: absolute;
+width: 170px;
+height: 40px;
+left:40px;
+top: 220px;
+font-family: 'Habibi';
+font-weight: 500;
+font-size: 32px;
+line-height: 60px;
+color: whitesmoke;
+text-align: left;
+
+}
+.name2{
+position: absolute;
+width: 170px;
+height: 40px;
+left: 170px;
+top: 220px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 58px;
+color:  whitesmoke;
+
+}
+.scroll-container{
+    height: 200px; 
+  overflow-y: scroll;
+  background-color: #F5F5F5;
+}
+.backdrop{
+  position: fixed;
+  display: none;
+  top:0;
+  left:0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+}
+.modal{
+  position:fixed;
+  display:none;
+  z-index:200;
+  top:20%;
+  left:30%;
+  width:40%;
+  background:white;
+  padding:1rem;
+  border:1px solid #ccc;
+  box-shadow:1px 1px 1px rgba(0,0,0,0.5);
+
+}
+.modal__title{
+  text-align: center;
+  margin:0 0 1rem 0;
+}
+.modal__actions{
+  text-align: center;
+}
+.modal__action{
+  border:1px solid #0e4f1f;
+  background:#0e4f1f;
+  text-decoration: none;
+  color: white;
+  padding:0.5rem 1rem;
+  cursor:pointer;
+}
+.modal__action:hover,
+.modal__action:active{
+  background: #2ddf5c;
+  border-color: #2ddf5c;
+}
+.modal__action--negative{
+  background:red;
+  border-color:red;
+}

@@ -1,0 +1,97 @@
+.title2{
+position: absolute;
+width: 337px;
+height: 53px;
+left: 450px;
+top: 20px;
+font-family: 'Jacques Francois';
+font-weight: 400;
+font-size: 48px;
+line-height: 63px;
+color: #03379D;
+}
+.first-textbox{
+position: absolute;
+width: 462px;
+height: 144px;
+left: 450px;
+top: 150px;
+background: #9B9B9B;
+font-family: 'Inria Sans';
+font-size: 32px;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: center;
+padding-top: 30px;
+}
+.second-textbox{
+position: absolute;
+width: 367px;
+height: 144px;
+left: 950px;
+top: 150px;
+background: #9B9B9B;
+font-family: 'Inria Sans';
+font-size: 32px;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: center;
+padding-top: 30px; 
+}
+.third-textbox{
+position: absolute;
+width: 462px;
+height: 144px;
+left: 450px;
+top: 330px;
+background: #9B9B9B;
+font-family: 'Inria Sans';
+font-size: 32px;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: center;
+padding-top: 30px;
+}
+.fourth-textbox{
+  position: absolute;
+width: 367px;
+height: 144px;
+left: 950px;
+top: 330px;
+background: #9B9B9B;
+font-family: 'Inria Sans';
+font-size: 32px;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: center;
+padding-top: 30px;
+}
+.fifth-textbox{
+  position: absolute;
+  width: 462px;
+  height: 144px;
+  left: 450px;
+  top: 510px;
+  background: #9B9B9B;
+font-family: 'Inria Sans';
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: center;
+padding-top: 30px;
+}
+.sixth-textbox{
+  position: absolute;
+width: 367px;
+height: 144px;
+left: 950px;
+top: 510px;
+background: #9B9B9B;
+font-family: Inria Sans;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: center;
+padding-top: 30px;
+}
