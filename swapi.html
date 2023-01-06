@@ -1,0 +1,48 @@
+<html>
+<head>
+  <title>Star Wars</title>
+  <link rel="stylesheet" href="swapi.css">
+</head>
+<body>
+  <h1 id="title">Star Wars characters info</h1>
+  <div id="character-container"></div>
+  <script>
+    // Function to retrieve and display all characters from the SWAPI API
+    const getCharacters = (page = 1) => {
+      // Make a request to the SWAPI API to retrieve the list of characters
+      fetch(`https://swapi.dev/api/people/?page=${page}`)
+        .then(response => response.json())
+        .then(data => {
+          // Parse the JSON data and use it to create HTML elements for each character
+          const characterContainer = document.getElementById('character-container');
+          for (const character of data.results) {
+            // Create a new HTML element for the character
+            const characterElement = document.createElement('div');
+            // Set the character's name and other information as the element's text content
+            characterElement.innerHTML = `
+              <h2 id="chartilte">${character.name}</h2>
+              <p>Age: ${character.age}</p>
+              <p>Height: ${character.height}</p>
+              <p>Mass: ${character.mass}</p>
+              <p>Birth Year: ${character.birth_year}</p>
+              <p>Gender: ${character.gender}</p>
+              <p>Hair Color: ${character.hair_color}</p>
+              <p>Eye Color: ${character.eye_color}</p>
+              <p>Skin Color: ${character.skin_color}</p>
+              
+             
+            `;
+            // Append the character element to the container
+            characterContainer.appendChild(characterElement);
+          }
+          // If there is another page of characters, retrieve and display them as well
+          if (data.next) {
+            getCharacters(page + 1);
+          }
+        });
+    };
+    // Retrieve and display the first page of characters
+    getCharacters();
+  </script>
+</body>
+</html>
