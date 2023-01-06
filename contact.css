@@ -1,0 +1,175 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background:hsl(240, 10%, 94%);
+}
+.title3{
+position: absolute;
+width: 364px;
+height: 63px;
+left: 500px;
+top: 40px;
+font-family: 'Jacques Francois';
+font-weight: 400;
+font-size: 32px;
+line-height: 63px;
+color: #03379D;
+}
+.email-icon{
+position: absolute;
+left: 39.24%;
+right: 55.76%;
+top: 19.73%;
+bottom: 73.73%;
+height: 80px;
+}
+.phone-icon{
+    position: absolute;
+    left: 39.93%;
+    right: 55%;
+    top: 36.31%;
+    width: 80px;
+    height: 60px;
+}
+.location-icon{
+    position: absolute;
+    width: 77px;
+    height: 86px;
+    left: 39.24%;
+    top: 310px;
+}
+.email-words{
+position: absolute;
+left: 663px;
+top: 140px;
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 38px;
+}
+.phone-number{
+position: absolute;
+width: 244px;
+height: 38px;
+left: 663px;
+top: 240px;
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 38px;
+}
+.location{
+position: absolute;
+width: 219px;
+height: 38px;
+left: 663px;
+top: 335px;
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 38px;
+}
+
+button {
+    background-color: #f3ac40;
+    color: white;
+    position: absolute;
+    top: 500px;
+    left: 680px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 50px;
+    width: 90px;
+  }
+  
+  button:hover {
+    background-color: #eeede4;
+    color: #f3ac40;
+  }
+  .modal {
+    display: none; 
+    position: fixed; /* stay in place */
+    z-index: 1; /* sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* full width */
+    height: 100%; /* full height */
+    overflow: auto; /* enable scroll if needed */
+    background-color: rgb(0,0,0); /* fallback color */
+    background-color: rgba(0,0,0,0.4); /* black w/ opacity */
+  }
+
+  .modal-open {
+    display: block;
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    height: auto;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  form label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  form input[type="text"] {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+  }
+    textarea {
+      width: 500px;
+      height: 150px;
+      font-family: Arial;
+      background-color: #f2f2f2;
+    }
+  
+  form input[type="submit"] {
+    width: 100%;
+    padding: 0.5em;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    margin-top: 1rem;
+  }
+
+  /* Style the error messages */
+  .error {
+    color: red;
+    font-size: 0.8em;
+  }
+
+ 
+    
+  

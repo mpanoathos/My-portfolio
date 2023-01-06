@@ -1,0 +1,31 @@
+.homeimage2{
+position: absolute;
+width: fit-content;
+height: 100%;
+left: 297px;
+top: 0px;
+left: 40%;
+border: 2px solid #efeff2;
+max-width: 600px; 
+margin: 0 auto;
+}
+.words{
+  position: absolute;
+  top:300px;
+  left:850px;
+  font-size: large;
+  font-weight: 400;
+}
+@media (max-width: 600px) {
+  .homeimage2 {
+    width: 100%;
+    left: 0;
+  }
+  .words {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+
