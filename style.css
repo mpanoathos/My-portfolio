@@ -1,0 +1,271 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background:#efeff2;
+}
+.backdrop{
+  position:fixed;
+  display: none;
+  top:0;
+  left:0;
+  z-index:1;
+  height:100vh;
+  width: 100%;
+  background:rgba(0,0,0,0.5);
+}
+.nav-bar{
+    position:fixed;
+    width: 300px;
+    height: 700px;
+    left: -2px;
+    top: 0px;
+    background: #E4A951;
+    max-width: 600px;
+    margin:0 auto;
+}
+
+.toogle-button{
+  display: none;
+  width:2rem;
+  background:transparent;
+  border:none;
+  cursor:pointer;
+  padding-top:0;
+  padding-bottom: 0;
+  vertical-align: middle;
+  position:fixed;
+  z-index: 200;
+  left:2px;
+}
+.toogle-button:focus{
+  outline:none;
+}
+.toogle-button__bar{
+  width:100%;
+  height: 0.25rem;
+  background:black;
+  display: block;
+  margin: 0.5em 0;
+}
+.passport{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 50px;
+    top: 20px;
+    border-radius: 357.468px;
+    transform: rotate(-0.42deg);
+}
+.nav-links .home-nav a,.links .home a{
+    width: 127px;
+    color: #001E36;
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    font-family:'Habibi';
+    font-weight: Light;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+  }
+  .nav-links .about-nav a,.links .about a{
+    width: 127px;
+    color:#001E36;
+    position: absolute;
+    top: 340px;
+    left: 70px;
+    font-family:'Habibi';
+    font-weight: Light;
+    font-size: 24px;
+    text-align: left;
+    text-decoration: none;
+  }
+  .nav-links .education-nav a,.links .education a{
+    width: 127px;
+    color: #001E36;
+    position: absolute;
+    top: 380px;
+    left: 70px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 24px;
+    text-align: left;
+    text-decoration: none;
+  }
+  .nav-links .skills-nav a,.links .skills a{
+    width: 127px;
+    color: #001E36;
+    position: absolute;
+    top: 420px;
+    left: 70px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 24px;
+    opacity: 1;
+    text-align:left;
+    text-decoration: none;
+  }
+  .nav-links .project-nav a,.links .project a{
+    width: 127px;
+    color: #001E36;
+    position: absolute;
+    top: 460px;
+    left: 70px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 24px;
+    text-align: left;
+    text-decoration: none; 
+  }
+  .nav-links .contact-nav a,.links .contact a{
+    width: 127px;
+    color: #001E36;
+    position: absolute;
+    top: 500px;
+    left: 70px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 24px;
+    text-align: left;
+    text-decoration: none; 
+   }
+  .nav-links .home-nav a:hover,.links .home a:hover{
+    width: 127px;
+    color: #1410CB;
+    position: absolute;
+    top: 300px;
+    left: 75px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+    border-bottom:#1410CB 2px solid;
+  }
+  .nav-links .about-nav a:hover,.links .about a:hover{
+    width: 127px;
+    color: #1410CB;
+    position: absolute;
+    top: 340px;
+    left: 75px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+    border-bottom:#1410CB 2px solid;
+  }
+  .nav-links .education-nav a:hover,.links .education a:hover{
+    width: 127px;
+    color: #1410CB;
+    position: absolute;
+    top: 380px;
+    left: 75px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+    border-bottom:#1410CB 2px solid;
+  }
+  .nav-links .skills-nav a:hover,.links .skills a:hover{
+    width: 127px;
+    color: #1410CB;
+    position: absolute;
+    top: 420px;
+    left: 75px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: #1410CB 2px solid;
+  }
+  .nav-links .project-nav a:hover,.links .project a:hover{
+    width: 127px;
+    color: #1410CB;
+    position: absolute;
+    top: 460px;
+    left: 75px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: #1410CB 2px solid;
+  }
+.nav-links .contact-nav a:hover,.links .contact a:hover{
+    width: 127px;
+    color: #1410CB;
+    position: absolute;
+    top: 500px;
+    left: 75px;
+    font-family: 'Habibi';
+    font-weight: Light;
+    font-size: 25px;
+    opacity: 1;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: #1410CB 2px solid;
+  }
+.name1{
+position: absolute;
+width: 170px;
+height: 40px;
+left:40px;
+top: 220px;
+font-family: 'Habibi';
+font-weight: 500;
+font-size: 32px;
+line-height: 60px;
+color: whitesmoke;
+text-align: left;
+
+}
+.name2{
+position: absolute;
+width: 170px;
+height: 40px;
+left: 170px;
+top: 220px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 58px;
+color:  whitesmoke;
+
+}
+.mobile-nav{
+  display: none;
+  position: fixed;
+  z-index: 300;
+  top:0;
+  left:0;
+  background:#E4A951;
+  width:300px;
+  height:100vh;
+  z-index: 200;
+}
+/* }
+
+/* Add a media query for screens with a width less than 600px */
+@media (max-width: 600px) {
+  /* Hide the nav-links element when the screen width is less than 600px */  /* Show the mobile-nav element when the screen width is less than 600px */
+
+  /* Change the position of the toogle-button to fixed and the left value to 10px */
+  .toogle-button {
+    display: block;
+    position: fixed;
+    left: 10px;
+  }
+} 
